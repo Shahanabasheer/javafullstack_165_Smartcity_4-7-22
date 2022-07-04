@@ -1,0 +1,1897 @@
+@charset "ISO-8859-1";
+
+/* For Admin login backgound*/
+#admin_login, #user_login {
+	background-image: url("images/bg_Adminlogin.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.login_head h1 {
+	padding: 20px;
+	margin-bottom: -20px;
+	margin-left: 40px;
+	font-family: monospace;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+}
+
+.login_head p {
+	margin-left: 90px;
+	text-align: left;
+	font-family: monospace;
+	font-size: 20px;
+	color: white;
+}
+/* CSS for Admin login box and fields*/
+.box {
+	width: 280px;
+	height: 350px;
+	background: black;
+	margin: 0;
+	padding: 30px;
+	top: 25%;
+	left: 60%;
+	color: #fff;
+	border-radius: 15px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.box h2 {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-family: serif;
+}
+
+.box p {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.box input {
+	width: 90%;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+.box input[type="text"], .box input[type="password"] {
+	background: transparent;
+	border-style: ridge;
+	border-color: #21618c;
+	height: 35px;
+	color: #fff;
+	font-family: serif;
+	font-size: 15px;
+}
+
+.box input[type="submit"] {
+	display: block;
+	border: none;
+	outline: none;
+	height: 35px;
+	background: #21618c;
+	color: #000;
+	font-size: 20px;
+	font-family: serif;
+	border-radius: 20px;
+}
+
+/* CSS for header page */
+#body_header {
+	width: 50%;
+	z-index: 1;
+}
+
+.header img {
+	display: inline-block;
+	padding: 0;
+	line-height: 1.22;
+	float: left;
+	vertical-align: bottom;
+}
+
+.header h2 {
+	display: inline-block;
+	padding: 0;
+	margin-left: 0;
+	font-family: monospace;
+	font-size: 30px;
+	color: #21618c;
+	text-align: left;
+	text-shadow: 1px 1px #fff, -1px 1px #fff, 1px -1px #fff, -1px -1px #fff,
+		1px 1px 5px #555;
+}
+
+/*Administrator home*/
+#admin_homepage {
+	background-image: url("images/bg_Adminhome.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+	height: 90%;
+	font-family: serif;
+	background-repeat: no-repeat;
+}
+
+.admin_home {
+	position: relative;
+	width: 95%;
+	margin-left: 20px;
+	background-color: #21618c;
+}
+
+#adminhome>nav {
+	width: 100%;
+	display: flex;
+	max-height: 70px;
+	box-shadow: -2px -2px 5px white, 2px -2px 5px white;
+}
+
+#adminhome>nav>h3 {
+	line-height: 60px;
+	font-size: 40px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#adminhome>nav>ul {
+	margin: 0;
+	paddding: 0;
+	list-style-type: none;
+	display: flex;
+	position: relative;
+	right: 50px;
+}
+
+#adminhome>nav>ul>li {
+	line-height: 50px;
+	font-size: 20px;
+	margin: 0 0px;
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+	min-width: 50px;
+	margin: 0 0px;
+}
+
+#adminhome>nav>ul>li>a {
+	color: white;
+}
+
+#adminhome>nav>ul>li>a:hover {
+	border-bottom: 2px solid white;
+	background-color: #0088ff;
+}
+
+#adminhome_d2 {
+	font-size: 25px;
+	font-family: serif;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+/* Admin Education home page*/
+#body_Admin_Edu {
+	background-image: url("images/bg_AdminEdu.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.admin_edu {
+	display: inline-block;
+	font-family: serif;
+	/*	-webkit-box-shadow: 0 0 70px #fff;
+	-moz-box-shadow: 0 0 70px #fff;
+	box-shadow: 0 0 70px #fff;
+	*/
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.admin_edu h3 {
+	line-height: 60px;
+	font-size: 40px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+.adminedu_menu>li>a {
+	color: white;
+	display: block;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.admin_edu ul {
+	list-style: none;
+	position: relative;
+	text-align: left;
+}
+
+.admin_edu li {
+	float: left;
+}
+
+/* clear'n floats */
+.admin_edu ul:after {
+	clear: both;
+}
+
+.admin_edu ul:before, .admin_edu ul:after {
+	content: " ";
+	display: table;
+}
+
+.admin_edu nav {
+	position: relative;
+	/*background: #2B2B2B;*/
+	text-align: center;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #0E0E0E;
+	/*-webkit-box-shadow: 2px 2px 3px #888;
+	-moz-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+	*/
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+/* prime */
+ul.adminedu_menu li a {
+	display: block;
+	padding: 20px 30px;
+	/*border-right: 1px solid #3D3D3D;*/
+}
+
+ul.adminedu_menu li:last-child a {
+	border-right: none;
+}
+
+ul.adminedu_menu li a:hover {
+	color: #000;
+}
+
+/* adminedu_itemss */
+ul.adminedu_items {
+	position: absolute;
+	z-index: 200;
+	box-shadow: 2px 2px 0 #BEBEBE;
+	width: 20%;
+	display: none;
+}
+
+ul.adminedu_items li {
+	float: none;
+	margin: 0;
+}
+
+ul.adminedu_items li a {
+	border-bottom: 1px dotted #ccc;
+	border-right: none;
+	color: #000;
+	padding: 15px 30px;
+}
+
+ul.adminedu_items li:last-child a {
+	border-bottom: none;
+}
+
+ul.adminedu_items li a:hover {
+	color: #000;
+	background: #eeeeee;
+}
+
+/* adminedu_items display*/
+ul.adminedu_menu li:hover ul {
+	display: block;
+	background: #fff;
+}
+
+/* keeps the tab background white */
+ul.adminedu_menu li:hover a {
+	background: #fff;
+	color: #666;
+	text-shadow: none;
+}
+
+ul.adminedu_menu li:hover>a {
+	color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+	.decor {
+		padding: 3px;
+	}
+	.admin_edu {
+		width: 100%;
+		margin-top: 0px;
+	}
+	li {
+		float: none;
+	}
+	ul.adminedu_menu li:hover a {
+		background: none;
+		color: #8B8B8B;
+		text-shadow: 1px 1px #000;
+	}
+	ul.adminedu_menu li:hover ul {
+		display: block;
+		background: #272727;
+		color: #fff;
+	}
+	ul.adminedu_items {
+		display: block;
+		position: static;
+		box-shadow: none;
+		width: 100%;
+	}
+	ul.adminedu_items li a {
+		background: #272727;
+		border: none;
+		color: #8B8B8B;
+	}
+	ul.adminedu_items li a:hover {
+		color: #ccc;
+		background: none;
+	}
+}
+/*......................................*/
+/*........Add school page........... */
+#body_Addschool {
+	background-image: url("images/bg_viewSchool.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.add_school h3 {
+	line-height: 60px;
+	font-size: 25px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+}
+
+#logoutbar {
+	margin-right: 10px;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+#addSchoolFM {
+	font-family: inherit;
+	margin-left: 15px;
+	color: white;
+}
+
+#addSchool_div1 label {
+	font-size: 15px;
+	color: white;
+	width: 170px;
+	clear: left;
+	text-align: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	clear: left;
+}
+
+#addSchool_div1 input {
+	font-size: 15px;
+	color: black;
+	width: auto;
+}
+
+#addSchool_div1 input, label {
+	
+}
+
+#addSchool_div1 fieldset {
+	border: 1 px solid black;
+}
+
+#addSchool_div2 {
+	color: black;
+}
+
+#addSchool_div2 ul {
+	list-style: none;
+}
+
+#addSchool_div2 input[type="radio"] {
+	margin-left: 10px;
+}
+
+#addSchool_div2 ul li {
+	display: inline-block;
+}
+
+#addSchool_div3 ul {
+	list-style: none;
+}
+
+#addSchool_div3 input[type="radio"] {
+	margin-left: 10px;
+}
+
+#addSchool_div3 ul li {
+	display: inline-block;
+}
+
+#addSchool_div4 ul li {
+	display: inline-block;
+}
+
+#addSchool_div4 input[type="checkbox"] {
+	margin-left: 10px;
+}
+
+#addSchool_div5 select {
+	color: black;
+}
+
+#addSchool_div6 textarea {
+	margin-left: 140px;
+	color: black;
+}
+
+#addSchool_div6 input[type="submit"] {
+	width: 120px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+/*........................................................*/
+/*........View School Page */
+#body_viewSchool {
+	background-image: url("images/bg_viewSchool.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.admin_viewSchool {
+	border-style: groove;
+	border-color: white;
+	margin: 30px;
+	margin-left: 10%;
+}
+
+#body_viewSchool h3 {
+	line-height: 60px;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#viewSchool_search {
+	margin-left: 80%;
+	margin-right: 20px;
+}
+
+.logo {
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+.viewSchool_div1 {
+	margin-top: 10px;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+#viewSchool_sp1 label {
+	display: inline-block;
+	margin-right: 100px;
+}
+
+#viewSchool_sp2 label {
+	display: inline-block;
+	margin-right: 200px;
+}
+
+#viewSchool_sp3 label {
+	display: inline-block;
+	margin-right: 200px;
+}
+
+#logo, #viewSchoolDiv1, #viewSchoolDiv2 {
+	display: inline-table;
+	vertical-align: top;
+}
+
+.viewSchool_div2 {
+	margin-left: 250px;
+	padding-top: 20px;
+	width: 120px;
+	font-size: 15px;
+}
+/*..............................*/
+/*........User Registration...............*/
+#body_userReg {
+	background-image: url("images/regist.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#logoutbar {
+	margin-right: 10px;
+	margin-left: 80%;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+.registration {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 500px;
+	background-color: #1a5f80;
+	width: 700px;
+	margin-left: 20%;
+}
+
+.registration h3 {
+	color: white;
+	font-family: sans-serif;
+	margin: 20px;
+	margin-top: 20px;
+}
+
+#registrationFM {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	font-size: 18px;
+	font-family: sans-serif;
+	background-color: #154a68;
+	padding: 20px;
+}
+
+#registrationFM label {
+	color: white;
+}
+
+#registrationFM input[type="text"], input[type="email"], input[type="password"],
+	input[type="tel"] {
+	border: none;
+	padding: 5px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	color: black;
+	margin-left: 20px;
+}
+
+#registrationFM input[type="submit"] {
+	width: 180px;
+	margin-left: 85px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+	height: 35px;
+}
+/*.........Admin view users..............*/
+#body_adminViewUsers {
+	background-image: url("images/bg_Adminhome.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+	height: 90%;
+	font-family: serif;
+	background-repeat: no-repeat;
+}
+
+#logoutbar {
+	line-height: 30px;
+	margin-right: 10px;
+	margin-left: 90%;
+	margin-top: 0;
+	position: absolute;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+#body_adminViewUsers h3 {
+	line-height: 40px;
+	font-size: 30px;
+	margin-top: 25px;
+	margin-left: 25px;
+	color: #008080;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+.styled-table1 {
+	border-collapse: collapse;
+	margin-left: 25px;
+	font-size: 15px;;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table1 tr th {
+	background-color: #008080;
+	color: white;
+	text-align: left;
+}
+
+.styled-table1 th, .styled-table1 td {
+	padding: 12px 15px;
+}
+
+.styled-table1 tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.styled-table1 tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.styled-table1 tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+/*.......User home..........*/
+#user_homepage {
+	background-image: url("images/bg_Adminhome.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+	height: 90%;
+	font-family: serif;
+	background-repeat: no-repeat;
+}
+
+.user_home {
+	position: relative;
+	width: 95%;
+	margin-left: 20px;
+	background-color: #21618c;
+}
+
+#userhome>nav {
+	width: 100%;
+	display: flex;
+	max-height: 70px;
+	box-shadow: -2px -2px 5px white, 2px -2px 5px white;
+}
+
+#userhome>nav>h3 {
+	line-height: 60px;
+	font-size: 40px;
+	margin-left: 15px;
+	color: white;
+	width: 25%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#userhome>nav>ul {
+	paddding: 0;
+	display: flex;
+	margin-left: 0;
+	right: 10px;
+}
+
+#userhome>nav>ul>li {
+	line-height: 50px;
+	font-size: 18px;
+	padding: 0;
+	min-width: 20px;
+}
+
+#userhome>nav>ul>li>a {
+	color: white;
+}
+
+#userhome>nav>ul>li>a:focus, #userhome>nav>ul>li>a:hover {
+	border-bottom: 2px solid white;
+	background-color: #0088ff;
+	height: auto;
+}
+
+/*........for view more school....Admin.....................*/
+#body_viewMoreSchool {
+	background-image: url("images/bg_viewSchool.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#body_viewMoreSchool h3 {
+	line-height: 60px;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	margin-right: 10px;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+.logo img {
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+#logo, #viewMoreSchool_d1 {
+	display: inline-table;
+	vertical-align: top;
+}
+
+.viewMoreSchool_d1 {
+	margin-left: 5%;
+	margin-top: 10px;
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	font-family: serif;
+}
+
+#viewMore_s1 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#viewMore_s2 label {
+	display: inline-block;
+	margin-right: 200px;
+}
+
+#viewMore_s3 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+.viewMoreSchool_d2 {
+	margin-left: 20px;
+}
+
+.viewMoreSchool_d2 input[type="button"] {
+	margin: 5px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	font-family: serif;
+	margin-top: 10px;
+}
+
+/*...........view more school user........................*/
+#body_viewMoreSchool {
+	background-image: url("images/bg_viewSchool.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#body_viewMoreSchool h3 {
+	line-height: 60px;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	margin-right: 10px;
+	margin-top: 0;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+.logo img {
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+#logo, #viewMoreSchool_d1, #viewMoreSchool_d2 {
+	display: inline-table;
+	vertical-align: top;
+}
+
+.viewMoreSchool_d1 {
+	margin-left: 5%;
+	margin-top: 10px;
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	font-family: serif;
+	max-width: 900px;
+	position: absolute;
+}
+
+#viewMore_s1 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#viewMore_s2 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#viewMore_s3 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+.viewMoreSchool_d2 {
+	background-color: darkSlateGray;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 5%;
+	max-width: 320px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+	max-width: 320px;
+}
+
+.viewMoreSchool_d2 h4 {
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+.viewMoreSchool_d2 form {
+	padding: 2.3rem 2.2rem;
+	font-family: serif;
+	font-size: 15px;
+	color: white;
+	font-weight: normal;
+}
+
+.viewMoreSchool_d2 label {
+	margin-right: 40px;
+}
+
+.viewMoreSchool_d2 input[type="submit"] {
+	width: 150px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	font-family: serif;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+/*.......Add college...................*/
+#body_Addcollege {
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.add_college h3 {
+	line-height: 60px;
+	font-size: 25px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+}
+
+#logoutbar {
+	margin-right: 50px;
+}
+
+#logoutbar a {
+	display: block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+#addCollegeFM {
+	font-family: inherit;
+	margin-left: 25px;
+	color: white;
+}
+
+#addCollege_div1 label {
+	font-size: 15px;
+	color: white;
+	width: 170px;
+	clear: left;
+	text-align: left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	clear: left;
+}
+
+#addCollege_div1 input {
+	font-size: 15px;
+	color: black;
+	width: auto;
+}
+
+#addCollege_div1 input, label {
+	
+}
+
+#addCollege_div1 fieldset {
+	border: 1 px solid black;
+}
+
+#addCollege_div2 {
+	color: black;;
+}
+
+#addCollege_div2 ul {
+	list-style: none;
+}
+
+#addCollege_div2 input[type="radio"] {
+	margin-left: 10px;
+}
+
+#addCollege_div2 ul li {
+	display: inline-block;
+}
+
+#addCollege_div3 ul {
+	list-style: none;
+}
+
+#addCollege_div3 input[type="radio"] {
+	margin-left: 10px;
+}
+
+#addCollege_div3 ul li {
+	display: inline-block;
+}
+
+#addCollege_div4 ul li {
+	display: inline-block;
+}
+
+#addCollege_div4 input[type="checkbox"] {
+	margin-left: 10px;
+}
+
+#addCollege_div5 select {
+	font-size: 20px;
+	color: red;
+}
+
+#addCollege_div6 textarea {
+	margin-left: 140px;
+	border-radius: 10px;
+	color: black;
+}
+
+#addCollege_div6 input[type="submit"] {
+	width: 120px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+
+/*..............View colleges...............*/
+#body_viewCollege {
+	background-image: url("images/bg_col.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.admin_viewCollege {
+	border-style: groove;
+	border-color: white;
+	margin: 30px;
+	margin-left: 10%;
+}
+
+#body_viewCollege h3 {
+	line-height: 40px;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	line-height: 30px;
+	margin-right: 10px;
+	margin-left: 70%;
+	margin-top: 0;
+	position: absolute;
+	z-index
+	=2;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: black;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+#viewCollege_search {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 200px;
+	position: relative;
+	z-index: 3;
+}
+
+.logo {
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+.admin_viewCollege {
+	padding-top: 20px;
+	margin-top: 70px;
+}
+
+.viewCollege_div1 {
+	margin-top: 10px;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-top: 10px;
+}
+
+#viewCollege_sp1 label {
+	display: inline-block;
+	margin-right: 200px;
+}
+
+#viewCollege_sp2 label {
+	display: inline-block;
+	margin-right: 220px;
+}
+
+#viewCollege_sp3 label {
+	display: inline-block;
+	margin-right: 230px;
+}
+
+#viewCollege_sp4 label {
+	display: inline-block;
+	margin-right: 230px;
+}
+
+#logo, #viewCollegeDiv1, #viewCollegeDiv2 {
+	display: inline-table;
+	vertical-align: top;
+}
+
+.viewCollege_div2 {
+	margin-left: 250px;
+	padding-top: 20px;
+	width: 120px;
+	font-size: 15px;
+	position: absolute;
+}
+
+/*.............User view more college.........................*/
+#body_viewMoreCollege {
+	background-image: url("images/bg_col.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#body_viewMoreCollege h3 {
+	line-height: 60px;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	margin-right: 10px;
+	margin-top: 0;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+.logo img {
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+#logo, #viewMoreCollege_d1, #viewMoreCollege_d2 {
+	display: inline-table;
+	vertical-align: top;
+}
+
+.viewMoreCollege_d1 {
+	margin-left: 5%;
+	margin-top: 10px;
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	font-family: serif;
+	max-width: 900px;
+	position: absolute;
+}
+
+#viewMore_s1 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#viewMore_s2 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#viewMore_s3 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+.viewMoreCollege_d2 {
+	background-color: darkSlateGray;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 5%;
+	max-width: 320px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+	max-width: 320px;
+}
+
+.viewMoreCollege_d2 h4 {
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+.viewMoreCollege_d2 form {
+	padding: 2.3rem 2.2rem;
+	font-family: serif;
+	font-size: 15px;
+	color: white;
+	font-weight: normal;
+}
+
+.viewMoreCollege_d2 label {
+	margin-right: 40px;
+}
+
+.viewMoreCollege_d2 input[type="submit"] {
+	width: 150px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	font-family: serif;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+/*......Admin view more college..............*/
+#body_viewMoreCollege {
+	background-image: url("images/bg_col.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#body_viewMoreCollege h3 {
+	line-height: 60px;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	margin-right: 10px;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+.logo img {
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 8px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+#logo, #viewMoreCollege_d1 {
+	display: inline-table;
+	vertical-align: top;
+}
+
+.viewMoreCollege_d1 {
+	margin-left: 5%;
+	margin-top: 10px;
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	font-family: serif;
+}
+
+#viewMore_s1 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#viewMore_s2 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#viewMore_s3 label {
+	display: inline-block;
+	margin-right: 150px;
+}
+
+.viewMoreCollege_d2 {
+	margin-left: 20px;
+}
+
+.viewMoreCollege_d2 input[type="button"] {
+	margin: 5px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	font-family: serif;
+	margin-top: 10px;
+}
+/*.........Add Library admin.................*/
+#body_addlibrary {
+	background-image: url("images/bg_libr.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.add_library h3 {
+	line-height: 60px;
+	font-size: 25px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+}
+
+#logoutbar {
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 400px;
+	height: 200px;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+#addLibraryFM {
+	font-family: serif;
+	margin-left: 15px;
+	color: white;
+}
+
+#addLibrary_div1 label {
+	font-size: 15px;
+	color: white;
+	width: 170px;
+	clear: left;
+	text-align: left;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+
+#to {
+	margin-left: 50px;
+}
+
+#ctime {
+	margin-left: 0;
+}
+
+#addLibrary_div1 input {
+	font-size: 15px;
+	color: black;
+	width: auto;
+	margin-left: 30px;
+}
+
+#addLibrary_div1 fieldset {
+	border: 1 px solid black;
+}
+
+#addLibrary_div1 textarea {
+	margin-left: 140px;
+	border-radius: 10px;
+	color: black;
+}
+
+#addLibrary_div1 input[type="submit"] {
+	width: 120px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#addmorebooks {
+	font-size: 18px;
+	height: 35px;
+	width: 150px;
+	background-color: #008080;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	margin-left: 200px;
+	margin-top: 25px;
+	color: white;
+}
+
+#add_books {
+	margin-left: 15px;
+}
+
+#add_books label {
+	font-size: 15px;
+	color: white;
+	width: 170px;
+	clear: left;
+	text-align: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	clear: left;
+}
+
+#add_books input {
+	font-size: 15px;
+	color: black;
+	width: auto;
+}
+
+#add_books input[type="button"] {
+	width: 120px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+#add_books {
+	display: none;
+}
+/*.........View Library......*/
+#body_viewLibrary {
+	background-image: url("images/bg_libr.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#body_viewLibrary h3 {
+	line-height: 40px;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	line-height: 30px;
+	margin-right: 10px;
+	margin-left: 70%;
+	margin-top: 0;
+	position: absolute;
+	z-index
+	=2;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+#viewLibrary_search {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 200px;
+	position: relative;
+	z-index: 3;
+}
+
+.admin_viewLibrary {
+	border-style: groove;
+	border-color: white;
+	margin: 30px;
+	margin-left: 10%;
+}
+
+.admin_viewLibrary {
+	padding-top: 20px;
+	margin-top: 50px;
+}
+
+.viewLibrary_div1 {
+	margin-top: 10px;
+	margin-left: 25px;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-top: 10px;
+}
+
+.viewLibrary_div1 input[type="button"] {
+	color: black;
+	margin-left: 100%;
+}
+/*..........User View More Library................*/
+#body_UserviewMoreLibrary {
+	background-image: url("images/bg_libr.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#body_UserviewMoreLibrary h3 {
+	line-height: 40px;
+	font-size: 30px;
+	margin-top: 25px;
+	margin-left: 25px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	line-height: 30px;
+	margin-right: 10px;
+	margin-left: 70%;
+	margin-top: 0;
+	position: absolute;
+	z-index
+	=2;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+.UserviewMoreLibrary_d1 {
+	margin-left: 5%;
+	margin-top: 30px;
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	font-family: serif;
+}
+
+.UserviewMoreLibrary_d1 label {
+	margin-right: 25px;
+}
+
+.UserviewMoreLibrary_d2 {
+	background-color: darkSlateGray;
+	position: absolute;
+	margin-left: 75%;
+	max-width: 320px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+	max-width: 320px;
+}
+
+.UserviewMoreLibrary_d2 h4 {
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+.UserviewMoreLibrary_d2 form {
+	padding: 2.3rem 2.2rem;
+	font-family: serif;
+	font-size: 15px;
+	color: white;
+	font-weight: normal;
+}
+
+.UserviewMoreLibrary_d2 label {
+	margin-right: 40px;
+}
+
+.UserviewMoreLibrary_d2 input[type="submit"] {
+	width: 150px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	font-family: serif;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.UserviewMoreLibrary_d3 input[type="button"] {
+	width: 120px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+#UserviewMoreLibrary_d4 {
+	display: none;
+}
+
+.styled-table {
+	border-collapse: collapse;
+	margin-left: 25px;
+	font-size: 15px;;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table tr th {
+	background-color: #008080;
+	color: white;
+	text-align: left;
+}
+
+.styled-table th, .styled-table td {
+	padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+/*................Admin view more library................*/
+#body_viewMoreLibrary {
+	background-image: url("images/bg_libr.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#body_viewMoreLibrary h3 {
+	line-height: 40px;
+	font-size: 30px;
+	margin-top: 25px;
+	margin-left: 25px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#logoutbar {
+	line-height: 30px;
+	margin-right: 10px;
+	margin-left: 70%;
+	margin-top: 0;
+	position: absolute;
+	z-index
+	=2;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+.viewMoreLibrary_d1 {
+	margin-left: 5%;
+	margin-top: 30px;
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	font-family: serif;
+}
+
+.viewMoreLibrary_d1 label {
+	margin-right: 25px;
+}
+
+.viewMoreLibrary_d2 {
+	margin-left: 20px;
+}
+
+.viewMoreLibrary_d2 input[type="button"] {
+	margin: 5px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	font-family: serif;
+	margin-top: 10px;
+}
+
+.viewMoreLibrary_d3 input[type="button"] {
+	width: 120px;
+	margin-left: 65px;
+	background-color: #008080;
+	border: none;
+	color: white;
+	height: 35px;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+#viewMoreLibrary_d4 {
+	display: none;
+}
+
+.styled-table {
+	border-collapse: collapse;
+	margin-left: 25px;
+	font-size: 15px;;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table tr th {
+	background-color: #008080;
+	color: white;
+	text-align: left;
+}
+
+.styled-table th, .styled-table td {
+	padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
